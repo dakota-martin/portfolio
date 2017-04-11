@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto-black.woff2') format('woff2'),
+         url('fonts/roboto-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'passionbold';
+    src: url('fonts/passionone-regular.woff2') format('woff2'),
+         url('fonts/passionone-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('fonts/bebas___.woff2') format('woff2'),
+         url('fonts/bebas___.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+body {
+	background-color: #f4f4f4;
+}
+.title {
+	color: #ff1717;
+	font-family: 'bebasregular', sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	font-size: 44px;
+}
+.logo {
+	text-align: center;
+	color: #000;
+	outline: 0;
+	font-family: 'bebasregular', sans-serif;
+}
+h1 {
+	color: #ff1717;
+	font-family: 'bebasregular'
+}
+.about {
+	color: #ede8e8;
+	/*text-align: center;*/
+}
+.about-text {
+	font-family: 'robotoblack';
+	letter-spacing: .5px;
+	font-size: 18px;
+	 /*text-indent: 50px;*/
+	 /*text-align: center;*/
+}
+
+
+
