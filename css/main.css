@@ -26,10 +26,14 @@
 }
 body {
 	/*background-color: #fdf0d5;*/
-	background-color: #465362;
+	/*background-color: #465362;*/
+	background-color: #5b5b5b;
 }
 header {
 	width: 100%;
+}
+h1 {
+	font-size: 50px;
 }
 p {
 	color: #fff;
@@ -84,21 +88,30 @@ p {
 }
 
 a:hover {
-	color: #ff1717;
+	color: #fff;
+	/*color: #ff1717;*/
 	text-decoration: none;
 }
 .logo {
-	color: #000;
+	color: #fff;
 	text-align: center;
 	outline: 0;
 	font-family: 'bebasregular'
-
 }
 a {
 	font-family: 'bebasregular', sans-serif;
 	text-shadow: .5px .5px #000;
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
 }
-
+a:visited {
+	text-decoration: none;
+	outline: 0;
+}
+@media only screen and (max-width: 600px;) {
+	
+}
 
 
 
