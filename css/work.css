@@ -81,22 +81,6 @@ h1 {
 }
 
 .text {
-  font-size: 50px;
-  padding: 16px 32px;
-  color: #ff1717;
-  letter-spacing: .5px;
-  text-shadow: 1px 1px #000;
-  text-align: center;
-}
-.text2 {
-  font-size: 48px;
-  padding: 16px 32px;
-  color: #ff1717;
-  letter-spacing: .5px;
-  text-shadow: 1px 1px #000;
-  text-align: center;
-}
-.text3 {
   font-size: 45px;
   padding: 16px 32px;
   color: #ff1717;
@@ -106,6 +90,7 @@ h1 {
 }
 a {
 	outline: 0;
+	width: 10%;
 }
 a:hover {
 	color: #000;
@@ -117,7 +102,15 @@ footer {
 	font-size: 30px;
 	font-family: 'robotoblack'
 }
-
-
+ @media only screen and (max-width: 500px) {
+    .text {
+    	font-size: 45px;
+    	padding-bottom: 55px;
+    	letter-spacing: .8px;
+    }
+    .container {
+    	width: 100%;
+    }
+}
 
 
